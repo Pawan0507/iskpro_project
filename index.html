@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAGOOD HOMES</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.3.4/dist/aos.js"></script>
+</head>
+
+<body>
+    <div class="main-container">
+        <div data-aos="fade-up" class="banner-header">
+            <div class="container banner-header-content">
+                <img src="/images/logo.png" alt="" srcset="">
+                <div class="banner-header-content-btn">
+                    <a class="btn" href="#"><img src="/images/phone.svg" alt="phone-icon">CONTACT AN AGENT</a>
+                    <a class="btn" href="#"><img src="/images/menu.svg" alt="menu-icon">Menu</a>
+                </div>
+            </div>
+            <div class="banner-content">
+                <p class="sub-title">discover the hagood difference</p>
+                <h1 class="head1">Building More Than<br />Your Dream Home</h1>
+                <div data-aos="fade-up" class="banner-button">
+                    <a class="btn" href="#"><img src="/images/book.svg" alt="book-icon">BUILD ON YOUR LOT</a>
+                    <a class="btn" href="#"><img src="/images/home.svg" alt="home-icon">VIEW AVAILABLE HOMES</a>
+                </div>
+            </div>
+            <div class="top-to-bottom"><img id="top-to-bottom" src="/images/top-to-bottom.svg" alt="top-to-bottom icon"></div>
+        </div>
+        <div data-aos="fade-up" class="our-passion-container container">
+            <div class="our-passion-inner-container">
+
+                <div class="our-passion-container-left">
+                    <p class="green-para">Live better</p>
+                    <h2 class="head2">
+                        Your Home is<br />Our Passion
+                    </h2>
+                </div>
+                <div class="our-passion-container-right">
+                    <p class="b-para">
+                        Actually, couple more copy edits and photo swap. See mark-up. Replacement copy for top -
+                        “At Hagood Homes, our focus is to create with care and integrity. Our homes are built with
+                        Live Better features that offer more value for your investment. Whether you are a first-time
+                        homebuyer, an active adult, an expanding family, or ready for retirement, we design our homes
+                        with lifestyle transitions in mind. See why Hagood Homes is a preferred builder for many of the
+                        finest coastal Carolina communities
+                    </p>
+                    <a class="btn" href="#">learn more <img src="/images/arrow.svg" alt="arrow-icon"></a>
+                </div>
+            </div>
+        </div>
+        <div data-aos="fade-up" class="future-floor-container">
+            <h2 class="head2">Featured Floor Plans</h2>
+            <div class="future-floor-inner">
+                <div class="future-floor-inner-item">
+                    <div class="future-floor-inner-item-container">
+                        <div class="future-floor-inner-item1">
+                            <img src="/images/slide.png" alt="slide-image">
+                            <p class="slide-para">HARBOUR SIDE CANTED</p>
+                        </div>
+                    </div>
+                    <div class="future-floor-inner-item-container">
+                        <div class="future-floor-inner-item1">
+                            <img src="/images/slide.png" alt="slide-image">
+                            <p class="slide-para">HARBOUR SIDE CANTED</p>
+                        </div>
+                    </div>
+                    <div class="future-floor-inner-item-container">
+                        <div class="future-floor-inner-item1">
+                            <img src="/images/slide.png" alt="slide-image">
+                            <p class="slide-para">HARBOUR SIDE CANTED</p>
+                        </div>
+                    </div>
+                    <div class="future-floor-inner-item-container">
+                        <div class="future-floor-inner-item1">
+                            <img src="/images/slide.png" alt="slide-image">
+                            <p class="slide-para">HARBOUR SIDE CANTED</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="btn" href="#">VIEW ALL FLOOR PLANS <img src="/images/arrow.svg" alt="arrow-icon"></a>
+        </div>
+        <div data-aos="fade-up" id="footer" class="footer">
+            <div class="footer-inner container">
+                <div class="footer-inner-logo">
+                    <img src="/images/logo.png" alt="footer logo">
+                    <p>Lumina Station, 1908 Eastwood Road, Suite 328, Wilmington, NC 28403</p>
+                </div>
+                <div class="footer-inner-btn">
+                    <a class="btn1" href="#"><img src="/images/login.svg" alt="login icon">CONTACT AN AGENT</a>
+                    <a class="btn1" href="#"><img src="/images/home1.svg" alt="home icon">TAKE A VIRTUAL TOUR</a>
+                </div>
+                <div class="footer-inner-copy">
+                    <div class="footer-inner-copy-left">
+                        <img src="/images/fb.svg" alt="footer icon">
+                        <img src="/images/insta.svg" alt="footer icon">
+                        <img src="/images/cop-img.svg" alt="footer icon">
+                    </div>
+                    <div class="footer-inner-copy-right">
+                        <p>©Hagoods Homes. All Right Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $('.future-floor-inner-item').slick({
+            centerMode: true,
+            centerPadding: '370px',
+            slidesToShow: 1,
+            prevArrow: '<button class="slide-arrow prev-arrow"><img src="/images/left-arrow.svg" alt="slide-image"></button>',
+            nextArrow: '<button class="slide-arrow next-arrow"><img src="/images/right-arrow.svg" alt="slide-image"></button>'
+        })
+        $ (function () {
+$ ('#top-to-bottom') .click(function () {
+$ ('html, body') .animate ({
+scrollTop: $ ("#footer") .offset().top + $("#footer")[0].scrollHeight
+}, 2000);
+return false;
+})
+});
+AOS.init();
+    </script>
+</body>
+
+</html>

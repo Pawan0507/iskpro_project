@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: inter;
+    src: url(/fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: calluna;
+    src: url(/fonts/calluna-regular.otf);
+}
+
+img {
+
+    width: auto;
+    height: fit-content;
+}
+
+.container {
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.banner-header {
+    background-image: url(/images/unsplash_RKdLlTyjm5g.png);
+    background-size: cover;
+    height: 800px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.banner-header-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.banner-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.banner-header-content-btn {
+    display: flex;
+}
+
+.banner-header-content-btn .btn {
+    border: 1px solid #FFFFFF;
+    border-radius: 999px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-header-content-btn .btn:first-child {
+    margin-right: 20px;
+}
+
+.banner-header-content-btn .btn:nth-child(2) {
+    background: #058B71;
+    border: 1px solid #058B71;
+}
+
+.banner-header-content-btn .btn img {
+    padding-right: 10px;
+}
+
+.sub-title {
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+h1.head1 {
+    font-family: 'Calluna';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 133.16%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.banner-button {
+    display: flex;
+    align-items: center;
+}
+
+.banner-button .btn {
+    display: flex;
+    align-items: center;
+    background: #3D707F;
+    border-radius: 999px;
+    padding: 20px;
+}
+
+.banner-button .btn:first-child {
+    margin-right: 45px;
+}
+
+.banner-button .btn img {
+    padding-right: 10px;
+}
+
+.our-passion-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.our-passion-inner-container {
+    display: flex;
+    margin-top: 120px;
+}
+
+.our-passion-container-left {
+    max-width: 30%;
+    width: 100%;
+}
+
+.green-para {
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    /* primary */
+
+    color: #058B71;
+}
+
+.our-passion-container-left .green-para {
+    margin-bottom: 28px;
+}
+
+h2.head2 {
+    font-family: 'Calluna';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+
+    /* dark brown */
+
+    color: #27272A;
+}
+
+.b-para {
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 180.6%;
+    /* or 25px */
+
+
+    color: #000000;
+}
+
+.our-passion-container .btn {
+    background: #3D707F;
+    border-radius: 999px;
+    padding: 20px;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.our-passion-container .btn img,
+.future-floor-container .btn img {
+    margin-left: 10px;
+}
+
+.our-passion-inner-container {
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-between;
+}
+
+.our-passion-container-right {
+    max-width: 630px;
+    width: 100%;
+}
+
+.future-floor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 104px;
+    width: 100%;
+}
+
+.future-floor-inner {
+    width: 100%;
+}
+
+.future-floor-inner-item .slide-arrow.prev-arrow {
+    background: transparent;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    left: 4%;
+    z-index: 1;
+    top: 40%;
+}
+
+.future-floor-inner-item .slide-arrow.next-arrow {
+    background: transparent;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    right: 4%;
+    z-index: 1;
+    top: 40%;
+}
+
+.future-floor-inner-item1 {
+    margin: 0 26px;
+    position: relative;
+}
+
+.slide-para {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    background: #3D707F;
+    opacity: 0.8;
+    height: 63px;
+    font-family: 'Calluna';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.future-floor-container .head2 {
+    margin-bottom: 40px;
+}
+
+.future-floor-inner-item1 img {
+    width: 100%;
+}
+
+.future-floor-container .btn {
+    padding: 20px;
+    background: #3D707F;
+    border-radius: 999px;
+    margin-top: 40px;
+}
+
+.footer {
+    background-image: url(/images/footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 120px;
+}
+
+.footer-inner-logo {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 55px;
+}
+
+.footer-inner-logo p {
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.footer-inner-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 44px;
+}
+
+.footer-inner-btn .btn1 {
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 999px;
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #000000;
+    align-items: center;
+}
+
+.footer-inner-btn .btn1:first-child {
+    margin-right: 55px;
+}
+
+.footer-inner-btn .btn1 img {
+    padding-right: 10px;
+}
+
+.footer-inner-copy {
+    display: flex;
+    padding-bottom: 80px;
+    justify-content: space-between;
+}
+
+.footer-inner-copy-right p {
+    font-family: 'inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 161.1%;
+/* or 19px */
+
+text-align: right;
+
+color: #CBCBCB;
+}
+
+.footer-inner-copy-left img {
+    margin-right: 20px;
+}
+.top-to-bottom {
+    position: absolute;
+    right: 130px;
+    bottom: 97px;
+}
